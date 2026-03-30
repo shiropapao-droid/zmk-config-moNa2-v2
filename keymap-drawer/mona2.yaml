@@ -15,8 +15,8 @@ layers:
   - '0'
   - ESCAPE
   - '`'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '-'
+  - '='
   - {t: ▽, type: trans}
   - DELETE
   - {t: ▽, type: trans}
