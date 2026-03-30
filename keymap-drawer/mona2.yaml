@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, F13, H, J, K, L, ;, Z, X, C, V, B, '[', ']', N, M, ',', ., /, LCTRL, LEFT ALT, Gui+LCMD, '''', BACKSPACE,
-    '1', '&mkp LCLK', SPACE, ENTER]
+  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, BACKSPACE, H, J, K, L, ;, Z, X, C, V, B, '[', ']', N, M, ',', ., /, LCTRL, LEFT SHIFT, Gui+LCMD, '''', LEFT
+      ALT, '1', '&mkp LCLK', SPACE, F13]
   '1':
   - '1'
   - '2'
@@ -18,7 +18,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - DELETE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - UP ARROW
@@ -43,7 +43,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - '&mkp RCLK'
-  - LEFT SHIFT
+  - {t: ▽, type: trans}
   - \
   '2':
   - '!'
