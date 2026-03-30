@@ -1,9 +1,9 @@
 layout: {zmk_keyboard: mona2}
 layers:
-  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, ENTER, H, J, K, L, ;, Z, X, C, V, B, '[', ']', N, M, ',', ., /, LCTRL, LEFT ALT, Gui+LCMD, LEFT SHIFT, '&mkp
-      LCLK', '&mkp RCLK', '1', SPACE, PAGE UP]
+  default: [Q, W, E, R, T, Y, U, I, O, P, A, S, D, F, G, F13, H, J, K, L, ;, Z, X, C, V, B, '[', ']', N, M, ',', ., /, LCTRL, LEFT ALT, Gui+LCMD, '''', BACKSPACE,
+    '1', '&mkp LCLK', SPACE, ENTER]
   '1':
-  - Gui+1
+  - '1'
   - '2'
   - '3'
   - '4'
@@ -14,7 +14,7 @@ layers:
   - '9'
   - '0'
   - ESCAPE
-  - ''''
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -23,9 +23,9 @@ layers:
   - {t: ▽, type: trans}
   - UP ARROW
   - {t: ▽, type: trans}
-  - '='
-  - BACKSPACE
-  - '`'
+  - ENTER
+  - TAB
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -35,15 +35,15 @@ layers:
   - LEFT ARROW
   - DOWN
   - RIGHT
-  - '-'
-  - TAB
+  - '='
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - '&mkp RCLK'
+  - LEFT SHIFT
   - \
   '2':
   - '!'
