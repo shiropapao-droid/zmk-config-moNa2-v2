@@ -81,7 +81,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
   - BT NXT
   - '&mkp RCLK'
   - {t: ▽, type: trans}
